@@ -8,7 +8,7 @@ public class RueckwaertsAusgeben {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Bitte Zahl eingeben(String):");
 
-        String originalString = scanner.nextLine();
+        String originalString = scanner.nextLine(); // Scanner Eingabe
         int i = originalString.length() - 1;  // Starte beim letzten Zeichen
 
         while (i >= 0) {
@@ -22,7 +22,7 @@ public class RueckwaertsAusgeben {
 // -------------------------------------------------------------------------------------
 
         System.out.println("Bitte Zahl eingeben (Long):");
-        long originalLong = scanner.nextLong();
+        long originalLong = scanner.nextLong(); // Scanner Eingabe
         long umgedrehtLong = 0;
 
         while (originalLong > 0) {
